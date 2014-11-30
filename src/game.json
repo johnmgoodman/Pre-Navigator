@@ -1,0 +1,102 @@
+{
+  "background": {
+    "image": "styles/images/bg_stars_1.png",
+    "color": "#000000"
+  },
+  "nodes": [
+    {
+      "type": "LocationNode",
+      "w": 10, "h": 10, "x": 20, "y": 300,
+      "info": {
+        "text": "The spectrometer reveals that this system contains high levels of organic compounds.",
+        "stats": []
+      },
+      "location": {
+        "background": {
+          "image": "styles/images/bg_stars_1.png",
+          "color": "#000000"
+        },
+        "nodes": [
+          {
+            "type": "PlanetNode",
+            "w": 40, "h": 40, "x": 20, "y": 100,
+            "info": {
+              "text": "This planet looks terrestrial. Conditions seem to be very similar to my own home planet.",
+              "stats": [],
+            } 
+          },
+          {
+            "type": "PlanetNode",
+            "w": 45, "h": 45, "x": 190, "y": 200,
+            "info": {
+              "text": "A dense, energetic carbon dioxide atmosphere surrounds the surface and I can't get any good readings.",
+              "stats": []
+            } 
+          }
+
+        ]
+      }
+    },
+    {
+      "type": "PlanetNode",
+      "w": 10, "h": 10, "x": 200, "y": 210,
+      "info": {
+        "text": "This system is mostly hydrogen. Perhaps a good place to stock up on fuel if I'm cautious.",
+        "stats": [],
+        "distance": 400
+      }
+    },
+    {
+      "type": "LocationNode",
+      "w": 10, "h":10, "x": 220, "y": 10,
+      "info": {
+        "text": "This system looks pretty desolate, with one iron-rich planet orbiting a weakly glowing red dwarf.",
+        "stats": []
+      },
+      "location": {
+        "background": {
+          "image": "styles/images/bg_stars_1.png",
+          "color": "#000000"
+        },
+        "nodes": [
+          {
+            "type": "LocationNode",
+            "w": 200, "h": 200, "x": 300, "y": 100,
+            "image": "styles/images/red-dwarf_1.png",
+            "info": {
+              "text": "A dying red inferno.",
+              "stats": []
+            },
+            "location": {
+              "background": {
+                "image": "styles/images/bg_stars_1.png",
+                "color": "#000000"
+              },
+              "nodes": [
+                {
+                  "type": "PlanetNode",
+                  "x": 400, "y": 190, "w": 20, "h": 20,
+                  "image":"images/planet_solid_1.png",
+                  "info": {
+                    "text": "A planet within a planet. Remarkable.",
+                    "stats": []
+                  }
+                }
+
+              ]
+            }
+          },
+          {
+            "type": "PlanetNode",
+            "w": 30, "h": 30, "x": 150, "y": 175,
+            "image": "images/planet_solid_1.png",
+            "info": {
+              "text": "A large iron body with a thin atmosphere, mostly nitrogen.",
+              "stats": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
